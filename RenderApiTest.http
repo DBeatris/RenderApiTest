@@ -1,0 +1,6 @@
+@RenderApiTest_HostAddress = http://localhost:5011
+
+GET {{RenderApiTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
